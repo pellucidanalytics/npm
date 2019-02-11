@@ -68,7 +68,7 @@ extern class GM {
   function colorMap(type : MapType) : GM;
   function colorspace(val : String) : GM;
   function comment(test : String) : GM;
-  function compose(operator : ComposeOperator) : GM;
+  function compose(op : ComposeOperator) : GM;
   function compress(type : Compression) : GM;
   function contrast(multiplier : Int) : GM;
   function convolve(kernel : String) : GM;
